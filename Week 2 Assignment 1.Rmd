@@ -1,0 +1,20 @@
+---
+title: "Assignment 1 Week 2 - First Map"
+author: "Sugandran Govindsamy"
+date: "08 May 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Creating my First Map
+
+### May 8, 2017
+```{r echo = FALSE}
+library(leaflet)
+my_map <- leaflet() %>%
+  addTiles()
+my_map
+```
